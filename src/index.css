@@ -1,0 +1,46 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400,500,600,700');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-background;
+    font-family: 'FiraGO', 'Inter', system-ui, sans-serif;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.glass-effect {
+  @apply bg-surface-secondary/50 backdrop-blur-lg border border-surface-accent/20;
+}
+
+.hover-scale {
+  @apply hover:scale-[1.02] transition-transform duration-300;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-surface;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-accent rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/20;
+}

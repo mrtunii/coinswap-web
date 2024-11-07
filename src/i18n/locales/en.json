@@ -1,0 +1,126 @@
+{
+  "common": {
+    "help": "Help",
+    "error": "An error occurred",
+    "dashboard": "Dashboard",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "delete": "Delete",
+    "copy": "Copy",
+    "share": "Share",
+    "max": "MAX"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "phoneNumber": "Phone Number",
+    "haveAccount": "Already have an account? Login",
+    "noAccount": "Don't have an account? Register",
+    "logout": "Logout",
+    "error": "Invalid credentials",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "passwordUpdated": "Password successfully updated",
+    "emailUpdated": "Email successfully updated",
+    "phoneUpdated": "Phone number successfully updated",
+    "currentEmail": "Current Email",
+    "newEmail": "New Email",
+    "currentPhone": "Current Phone",
+    "newPhone": "New Phone"
+  },
+  "exchange": {
+    "sell": "Sell",
+    "buy": "Buy",
+    "send": "Send",
+    "receive": "Receive",
+    "min": "Min",
+    "rate": "Rate",
+    "fee": "Fee",
+    "paymentMethod": "Payment Method",
+    "exchange": "Exchange",
+    "termsAgree": "By clicking the button you agree to the terms of service",
+    "authRequired": "Authentication required for exchange",
+    "limits": {
+      "title": "Exchange Limits",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "limit": "Limit",
+      "used": "Used"
+    },
+    "transactions": {
+      "title": "Recent Transactions",
+      "viewAll": "View All",
+      "sell": "Sell",
+      "buy": "Buy"
+    },
+    "stats": {
+      "volume24h": "24h Volume",
+      "activeUsers": "Active Users",
+      "totalTransactions": "Total Transactions",
+      "avgTime": "Average Time"
+    }
+  },
+  "referral": {
+    "title": "Invite Friends",
+    "description": "Share your unique link or code with friends and get 50 SWAPS tokens for each friend's registration and transaction",
+    "stats": {
+      "invitedFriends": "Invited Friends",
+      "receivedTokens": "Received SWAPS",
+      "giftedTokens": "Gifted SWAPS"
+    },
+    "howItWorks": {
+      "title": "How it works?",
+      "step1": {
+        "title": "Share your referral code",
+        "description": "Share your unique link or code with friends"
+      },
+      "step2": {
+        "title": "Friend registers",
+        "description": "When a friend registers with your code, you both get 50 SWAPS tokens"
+      },
+      "step3": {
+        "title": "Friend makes an exchange",
+        "description": "You both get another 50 SWAPS tokens on your friend's first exchange"
+      }
+    },
+    "actions": {
+      "registration": "Registration",
+      "transaction": "Transaction",
+      "credited": "Credited",
+      "pending": "Pending"
+    }
+  },
+  "settings": {
+    "title": "Account Settings",
+    "description": "Manage your account security and personal information",
+    "tabs": {
+      "email": "Email",
+      "phone": "Phone",
+      "password": "Password"
+    },
+    "security": {
+      "title": "Password Update",
+      "description": "Regular password updates are recommended for security"
+    }
+  },
+  "addressBook": {
+    "addNew": "Add New Address",
+    "selectAddress": "Select Address",
+    "name": "Name",
+    "value": "Value",
+    "network": "Network",
+    "bank": "Bank",
+    "cryptoAddress": "Crypto Address",
+    "iban": "IBAN",
+    "namePlaceholder": "e.g., Main TRC20",
+    "cryptoPlaceholder": "e.g., TNx2fE9...",
+    "ibanPlaceholder": "e.g., GE29BG00..."
+  }
+}
